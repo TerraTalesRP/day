@@ -38,49 +38,57 @@ Use the imageScale property if the pin image is too large.
 
 UnminedCustomMarkers = {
 
-    isEnabled: false,
+    isEnabled: true,
 
     markers: [
 
-        // Example 1: Simple marker
+        // North West Portal
         {
-            x: -200,
-            z: -200,
+            x: -2987,
+            z: -2968,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
+            imageScale: 0.3,
         },
-
-        // Example 2: Marker with text
+        // North Portal
         {
-            x: 0,
-            z: 0,
+            x: -1193,
+            z: -4295,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
-            text: "Marker with text",
-            textColor: "red", 
-            offsetX: 0,
-            offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            imageScale: 0.3,
         },
-
-        // Example 3: Text only
+        //North East Portal
         {
-            x: 200,
-            z: 200,
-            text: "Text only", 
-            textColor: "yellow", 
-            offsetX: 0,
-            offsetY: 0, 
-            font: "bold 50px Calibri,sans serif",
+            x: 2269,
+            z: -2920,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
         },
-
-        // add your markers here
-
-
-
-
-        // do not delete the following two closing brackets
+         // East Portal
+         {
+            x: 3236,
+            z: 467,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+        },               
+         // South East Portal
+         {
+            x: 1517,
+            z: 1787,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+        }, 
+         // South West Portal
+         {
+            x: -193,
+            z: 3134,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+        },                                          
     ]
 }
