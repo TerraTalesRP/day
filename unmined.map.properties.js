@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: -12,
     maxRegionX: 10,
     maxRegionZ: 10,
-    worldName: "terratalesv7",
+    worldName: "Terra Tales",
     background: "#0B0A07",
     markers: new Array()
 }

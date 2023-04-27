@@ -38,7 +38,7 @@ Use the imageScale property if the pin image is too large.
 
 UnminedCustomMarkers = {
 
-    isEnabled: true,
+    isEnabled: false,
 
     markers: [
 
@@ -89,6 +89,22 @@ UnminedCustomMarkers = {
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.3,
-        },                                          
+        },  
+         // Mid Protal
+         {
+            x: -77,
+            z: -2160,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+        },                                                                              
+         // West Portal
+         {
+            x: -2449,
+            z: 1338,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.3,
+        },                 
     ]
 }
