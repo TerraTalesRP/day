@@ -5,10 +5,10 @@ var UnminedMapProperties = {
     defaultZoom: 0,
     imageFormat: "webp",
     minRegionX: -11,
-    minRegionZ: -12,
+    minRegionZ: -11,
     maxRegionX: 10,
     maxRegionZ: 10,
-    worldName: "Terra Tales",
+    worldName: "terratales",
     background: "#0B0A07",
     markers: new Array()
 }
