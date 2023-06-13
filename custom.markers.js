@@ -42,69 +42,45 @@ UnminedCustomMarkers = {
 
     markers: [
 
-        // North West Portal
+        // Example 1: Simple marker
         {
-            x: -2987,
-            z: -2968,
+            x: -200,
+            z: -200,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.3,
+            imageScale: 0.5,
         },
-        // North Portal
+
+        // Example 2: Marker with text
         {
-            x: -1193,
-            z: -4295,
+            x: 0,
+            z: 0,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.3,
+            imageScale: 0.5,
+            text: "Marker with text",
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20,
+            font: "bold 20px Calibri,sans serif",
         },
-        //North East Portal
+
+        // Example 3: Text only
         {
-            x: 2269,
-            z: -2920,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
+            x: 200,
+            z: 200,
+            text: "Text only", 
+            textColor: "yellow", 
+            offsetX: 0,
+            offsetY: 0, 
+            font: "bold 50px Calibri,sans serif",
         },
-         // East Portal
-         {
-            x: 3236,
-            z: 467,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
-        },               
-         // South East Portal
-         {
-            x: 1517,
-            z: 1787,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
-        }, 
-         // South West Portal
-         {
-            x: -193,
-            z: 3134,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
-        },  
-         // Mid Protal
-         {
-            x: -77,
-            z: -2160,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
-        },                                                                              
-         // West Portal
-         {
-            x: -2449,
-            z: 1338,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.3,
-        },                 
+
+        // add your markers here
+
+
+
+
+        // do not delete the following two closing brackets
     ]
 }
